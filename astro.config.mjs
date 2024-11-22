@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 
 export default defineConfig({
+  site: 'https://elenavesc.github.io',
+  base: '/EventosGranada',
   integrations: [tailwind()],
-  site: 'https://tu-dominio.com', // Reemplaza con tu dominio si lo tienes
 });
